@@ -266,6 +266,4 @@ docker-compose down
 
 [(Datanode)](http://localhost:9870/explorer.html#/projeto-spark)
 
-![Hadoop Panel](src/img/Datanode_panel.png)# spark-mack
-# spark-mack
-# spark-mack
+![Hadoop Panel](src/img/Datanode_panel.png)
