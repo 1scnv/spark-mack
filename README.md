@@ -43,7 +43,7 @@ divide os ingredientes em blocos e os armazena em diferentes despensas (nós), c
 é responsável por coordenar os recursos da cozinha, garantindo que os ajudantes estejam focados em diferentes tarefas de forma coordenada.
 
 
-`Spark`: É o serviço de coordenação que gerencia o Kafka. Ele mantém o registro de todos os tópicos, partições, brokers (servidores Kafka) e consumidores. O Zookeeper garante que todos os componentes do sistema saibam o que está acontecendo e possam agir de forma coordenada.
+`Spark`: é um motor de processamento de dados rápido e de alta performance, que trabalha principalmente em memória.
 
 - `RDDs`
 (Resilient Distributed Datasets) são como bandejas de ingredientes já preparados e prontos para serem usados. Eles são distribuídos pela equipe e podem ser reutilizados várias vezes sem a necessidade de buscá-los na despensa toda vez.
@@ -93,7 +93,7 @@ Plataforma de software de código aberto que permite o armazenamento e processam
 
 ### Vantagens e benefícios
 
-A combinação de Apache Kafka e Zookeeper oferece uma solução robusta e escalável para sistemas de streaming de dados em tempo real. A sinergia entre essas duas tecnologias proporciona uma série de vantagens e benefícios:
+A combinação de Apache Spark e Hadoop oferece uma solução robusta e escalável para sistemas de streaming de dados em tempo real. A sinergia entre essas duas tecnologias proporciona uma série de vantagens e benefícios:
 
 #### Hadoop
     . Escalabilidade
@@ -171,7 +171,7 @@ E os serviços expõem as portas:
 
 ### 2. Inicie o Docker Compose
 
- Abra o terminal no diretório onde o arquivo `docker-compose.yml` se encontra e execute o comando abaixo para iniciar os contêineres Kafka e Zookeeper:
+ Abra o terminal no diretório onde o arquivo `docker-compose.yml` se encontra e execute o comando abaixo para iniciar os contêineres Hadoop e Spark:
 
 ```
 docker-compose up -d
@@ -244,7 +244,7 @@ Resultado:
 
 ### 10. Parar e Remover contêineres
 
-Para parar e remover os contêineres Kafka e Zookeeper, execute o comando abaixo:
+Para parar e remover os contêineres Hadoop e Spark, execute o comando abaixo:
 
 ```
 docker-compose down
